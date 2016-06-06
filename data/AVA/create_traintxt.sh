@@ -1,0 +1,1 @@
+awk -F';' '{ print $1 ".jpg " $4;}' scripts/DATASET_SUMMARY.txt > train.txt; cp train.txt vals.txt
