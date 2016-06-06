@@ -1,1 +1,1 @@
-./build/tools/caffe train --solver=models/OurModel/solver.prototxt
+./build/tools/caffe train --solver=models/bvlc_reference_caffenet/solver.prototxt
