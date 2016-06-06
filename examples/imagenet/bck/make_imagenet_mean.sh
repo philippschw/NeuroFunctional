@@ -3,10 +3,10 @@
 # N.B. this is available in data/ilsvrc12
 
 EXAMPLE=examples/imagenet
-DATA=data/check
+DATA=data/ilsvrc12
 TOOLS=build/tools
 
-$TOOLS/compute_image_mean $EXAMPLE/ava_train_lmdb \
+$TOOLS/compute_image_mean $EXAMPLE/ilsvrc12_train_lmdb \
   $DATA/imagenet_mean.binaryproto
 
 echo "Done."
