@@ -9,12 +9,12 @@ layer {
   }
   transform_param {
     mirror: true
-    crop_size: 227
+    crop_size: 225
     mean_file: "data/check/imagenet_mean.binaryproto"
   }
 # mean pixel / channel-wise mean instead of mean image
 #  transform_param {
-#    crop_size: 227
+#    crop_size: 225
 #    mean_value: 104
 #    mean_value: 117
 #    mean_value: 123
@@ -36,12 +36,12 @@ layer {
   }
   transform_param {
     mirror: false
-    crop_size: 227
+    crop_size: 225
     mean_file: "data/check/imagenet_mean.binaryproto"
   }
 # mean pixel / channel-wise mean instead of mean image
 #  transform_param {
-#    crop_size: 227
+#    crop_size: 225
 #    mean_value: 104
 #    mean_value: 117
 #    mean_value: 123
