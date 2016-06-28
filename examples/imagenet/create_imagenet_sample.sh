@@ -3,7 +3,7 @@
 # N.B. set the path to the imagenet train + val data dirs
 
 EXAMPLE=../../examples/imagenet
-DATA=../../data/check
+DATA=../../data/sample/check
 TOOLS=../../build/tools
 
 TRAIN_DATA_ROOT=../../data/sample/
