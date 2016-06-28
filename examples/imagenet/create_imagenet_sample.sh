@@ -6,8 +6,8 @@ EXAMPLE=../../examples/imagenet
 DATA=../../data/check
 TOOLS=../../build/tools
 
-TRAIN_DATA_ROOT=../../data/AVA/trainingset/sample/
-VAL_DATA_ROOT=../../data/AVA/trainingset/sample/
+TRAIN_DATA_ROOT=../../data/sample/
+VAL_DATA_ROOT=../../data/sample/
 
 # Set RESIZE=true to resize the images to 256x256. Leave as false if images have
 # already been resized using another tool.
